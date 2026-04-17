@@ -6,7 +6,7 @@ const api = {
 const images = {
     sunny: './img/sunnyWeather.jpg',
     atmosphereWeather: './img/atmosphereWeather.jpg',
-    cloudyWeather: './img/cloudyWeather.jpg',
+    cloudyWeather: './img/cloudyWeather-2.jpg',
     rainWeather: './img/rainWeather.jpg',
     snowWeather: './img/snowWeather.jpg',
     thunderWeather: './img/thunderWeather.jpg'
