@@ -1,0 +1,60 @@
+
+
+body {
+ margin: 0;
+    padding: 0;
+    
+    transition: background-image 0.5s ease-in-out;
+    font-family: Arial, sans-serif;
+    background-image: url('./img/sunnyWeather.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:center;
+    background-attachment: fixed;
+}
+
+
+main {
+  background: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 400px;
+    margin: 50px auto;
+    color: white;
+    text-align: center;
+    
+    /* Flexbox вариант */
+    display: flex;
+    flex-direction: column;
+    gap: 30px; /* Это создаст расстояние в 20px между всеми дочерними элементами */
+}
+
+ 
+input {
+background-color: rgba(226, 229, 223, 0.903);
+border-radius: 20px;
+border: 3px solid #CDF3A2;
+padding: 15px;
+font-size: 20px;
+ 
+}
+
+#city{
+   font-size: clamp(1.875rem, 1.5741rem + 1.2346vw, 2.5rem);
+    color: white;
+    margin: 0;
+}
+#temperature{
+font-size: clamp(3.125rem, 1.9213rem + 4.9383vw, 5.625rem);
+    color: white;
+     margin: 0;
+     font-weight: bold;
+     text-shadow: 5px 10px black;
+     
+}
+
+#date, #temperIsLike, #conditions, #varation{
+     font-size: clamp(1.875rem, 1.7245rem + 0.6173vw, 2.1875rem);
+    color: white;
+    margin: 0;
+}
